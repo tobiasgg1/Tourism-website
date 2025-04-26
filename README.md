@@ -1,2 +1,3 @@
 # Tourism-website
-Argentine tourism website. A brief description about the Argentina culture, places to go and hotels in the most beautiful locations in the country.
+This project is a simple yet vibrant website designed to showcase the beauty and culture of Argentina. It offers visitors a glimpse into the rich traditions, warm hospitality, and diverse landscapes that make Argentina a unique travel destination. The website features brief descriptions of Argentine culture, including its music, dance, cuisine, and festivals. It also highlights must-visit places such as Buenos Aires, Patagonia, Iguazú Falls, Mendoza, and the Northwest region. Additionally, users can find recommendations for hotels located in some of the most stunning and iconic parts of the country, ensuring they have an unforgettable stay.
+Our goal is to provide an inspiring and informative experience for anyone planning to explore Argentina.
