@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    
+    background-color: #F5F5F5;
+    scroll-behavior: smooth;
+    
+}
+header{
+    height: 50px;
+  }
+  nav {
+      width: 100%;
+      height: 100%;
+      background-color: #003a75;
+      position: flex;
+      top: 0;
+      left: 0;
+  
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+  }
+  
+  nav ul li {
+      margin: 0 20px;
+  }
+  
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+      color: #ffcc00;
+  }
+  .imagen-contenedora{
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+    display: grid; 
+  }
+  .imagen-contenedora img{
+    max-width: 1600px;
+    max-height: 900px;
+    border-radius: 15px; /* Bordes redondeados */
+    border: 5px solid white; /* Bordes blancos, ajusta el grosor */
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    height: auto;
+    width: 100%; 
+    height: auto; 
+  }
+  .titulo-img1{
+    position: absolute; 
+    top: 30%; 
+    left: 28%;
+    color: white; 
+    font-size: 70px; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  .titulo-img2{
+    position: absolute; 
+    top: 40%; 
+    left: 30%;
+    color: white; 
+    font-size: 70px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .titulo-img3{
+    position: absolute; 
+    top: 30%; 
+    left: 17%;
+    color: white; 
+    font-size: 70px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .titulo-img4{
+    position: absolute; 
+    top: 30%; 
+    left: 40%;
+    color: white; 
+    font-size: 70px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .subtitulo-img{
+    position: absolute; 
+    top: 58%; 
+    left: 43%; 
+    color: white; 
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  .subtitulo-img2{
+    position: absolute; 
+    top: 59%; 
+    left: 43%;
+    color: white; 
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  .subtitulo-img3{
+    position: absolute; 
+    top: 45%; 
+    left: 38%; 
+    color: white; 
+    font-size: 30px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    border-radius: 5px; 
+  }  
+  .parent-turismo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+ }
+.nombress{
+  font-size: 30px;
+}
+.parent-turismo div a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+#texto-centrar{
+  text-align: center;
+}
+.atras{
+  text-align: center;
+}
+.volver{
+
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+ 
+}
+  .div1{
+  
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    grid-template-columns: 1fr; 
+    grid-gap: 10px; 
+    padding: 10px; 
+  }
+  .div1 img{
+    border-radius: 15px; 
+    border: 5px solid white; 
+    width: 100%; 
+    height: auto; 
+    height: 800;
+    width: 800;
+   
+  }
+  .titulo-grid{
+    font-size: 2rem; 
+  font-weight: bold;
+  margin-bottom: 10px; 
+  }
+  .parrafo{
+    font-size: 25px; 
+  line-height: 1.5;
+  margin-top: 0; 
+  }
+ 
+  /* FOOTER */
+.footer {
+    background-color: #003a75;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #00a8ff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00a8ff;
+  }
+  
+ 
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Newsletter */
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .newsletter-form button {
+    background-color: #00a8ff;
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #007acc;
+  }
+  
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #0056b3;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+    /* Header y navegación */
+    header {
+      height: auto; /* Ajusta automáticamente el alto según el contenido */
+      padding: 10px;
+      background-color: #003a75; /* Fondo coherente con el nav */
+    }
+  
+    nav {
+      width: 100%;
+      background-color: #003a75;
+      position: relative; /* Evita solaparse */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Elementos en columna */
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 5px 0; /* Espaciado entre elementos */
+    }
+  
+    nav ul li a {
+      font-size: 1rem; /* Tamaño de texto más pequeño */
+      text-align: center;
+      display: block;
+      padding: 10px 0;
+    }
+  
+    nav ul li a:hover {
+      background-color: #0056b3; /* Indicador visual al pasar */
+      color: #ffffff;
+      border-radius: 5px;
+    }
+    /* Imagen contenedora */
+    .imagen-contenedora {
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        display: block;
+    }
+
+    .imagen-contenedora img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        border: 5px solid white;
+    }
+
+    /* Títulos en la imagen */
+    .titulo-img1, .titulo-img2, .titulo-img3, .titulo-img4 {
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .titulo-img1 {
+        top: 25%;
+    }
+
+    .titulo-img2 {
+        top: 35%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .titulo-img3 {
+        top: 45%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .titulo-img4 {
+        top: 55%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .subtitulo-img, .subtitulo-img2, .subtitulo-img3 {
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+
+    .subtitulo-img {
+        top: 58%;
+    }
+
+    .subtitulo-img2 {
+        top: 60%;
+    }
+
+    .subtitulo-img3 {
+        top: 50%;
+    }
+
+    /* Layout del contenido */
+    .parent-turismo {
+        display: block;
+        margin: 10px;
+    }
+
+    .div1 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .div1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        border: 5px solid white;
+    }
+
+    .titulo-grid {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .parrafo {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .footer-container {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .footer-section h3 {
+        font-size: 18px;
+    }
+
+    .footer-section ul li {
+        font-size: 14px;
+    }
+
+    .newsletter-form {
+        display: block;
+    }
+
+    .newsletter-form input, .newsletter-form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
